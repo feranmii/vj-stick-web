@@ -1,0 +1,520 @@
+body {
+    height: 100%;
+    touch-action: manipulation;
+}
+
+/*@media screen and (max-width: 992px) and (orientation: portrait) {*/
+@media (orientation: portrait) {
+    #nav-column {
+        /*padding-top: 5%;*/
+    }
+}
+
+/*@media screen and (max-width: 992px) and (orientation: landscape) {*/
+@media (orientation: landscape) {
+    #nav-column {
+        /*padding-top: 0%;*/
+    }
+}
+
+@media (orientation: portrait) {
+    .d-flex.justify-content-md-center {
+        width: 300%;
+    }
+}
+
+@media (orientation: landscape) {
+    .d-flex.justify-content-md-center {
+        width: 100%;
+    }
+}
+
+/*@media screen and (max-width: 992px) and (orientation: portrait) {*/
+@media (orientation: portrait) {
+    .olympian-img {
+        height: auto;
+        width: 30%;
+    }
+}
+
+/*@media screen and (max-width: 992px) and (orientation: landscape) {*/
+@media (orientation: landscape) {
+    .olympian-img {
+        height: auto;
+        width: 10%;
+    }
+}
+
+.row.text-left {
+    /*margin-top: 27%;*/
+}
+
+.row.text-left {
+    /*margin-top: 2%;*/
+}
+
+@media (orientation: portrait) {
+    .backbutton-img {
+        width: 15%;
+    }
+}
+
+@media (orientation: landscape) {
+    .backbutton-img {
+        width: 7%;
+    }
+}
+
+@media (orientation: portrait) {
+    .id-label {
+        font-size: 20px;
+    }
+}
+
+@media (orientation: landscape) {
+    .id-label {
+        font-size: 14px;
+    }
+}
+
+@media (orientation: portrait) {
+    #nav-header {
+        /*top: 200px;*/
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    #nav-header {
+        /*top: 0px;*/
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 992px) and (orientation: portrait) {
+    .btn.btn-primary.text-center.d-flex.justify-content-center {
+        /*width: 34%;*/
+    }
+}
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    .btn.btn-primary.text-center.d-flex.justify-content-center {
+        /*width: 25%;*/
+    }
+}
+
+@media (orientation: landscape) {
+    .olympian-logo {
+        /*float: right;*/
+        max-height: 60%;
+        max-width: 60%;
+        height: auto;
+        width: auto;
+
+    }
+}
+
+@media (orientation: portrait) {
+    .olympian-logo {
+        /*float: right;*/
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+
+
+    }
+}
+
+
+@media (orientation: portrait) {
+    #load-button {
+        margin-top: 25%;
+    }
+}
+
+@media (orientation: landscape) {
+    #load-button {
+        margin-top: 5%;
+        width: 20%;
+    }
+}
+
+@media (orientation: landscape) {
+    #vj-logo {
+        width: 8%;
+        height: 8%;
+        top: 55px;
+        margin-top: 0px;
+    }
+}
+
+@media (orientation: portrait) {
+    #vj-logo {
+        width: 20%;
+        height: 20%;
+        top: 100px;
+        margin-top: 32px;
+    }
+}
+
+#buttons-container {
+    position: relative;
+    width: 100%;
+}
+
+@media (orientation: landscape) {
+    #buttons-container img {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media (orientation: portrait) {
+    #buttons-container img {
+        width: 30%;
+        height: auto;
+    }
+}
+
+/*@media screen and (max-width: 992px) and (orientation: portrait) {*/
+@media (orientation: portrait) {
+    #buttons-container #buttn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        padding: 30px 30px;
+        border: none;
+    }
+}
+
+/*@media screen and (max-width: 992px) and (orientation: landscape) {*/
+@media (orientation: landscape) {
+    #buttons-container #buttn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: white;
+        font-size: 16px;
+        padding: 300px 300px;
+        border: none;
+    }
+}
+
+@media (orientation: landscape) {
+    #player-name-port {
+        display: none;
+    }
+}
+
+@media (orientation: portrait) {
+    #player-name-port {
+        display: flex;
+    }
+}
+
+@media (orientation: landscape) { {
+    /*display: none;*/
+}
+}
+
+@media (orientation: portrait) {
+    #control-buttons-container {
+        display: flex;
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media (orientation: landscape) {
+    #control-buttons-container {
+        display: flex;
+
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media (orientation: portrait) {
+    #player-name-land {
+        display: none;
+    }
+}
+@media (orientation: portrait) {
+    #player-name-land {
+        display: flex;
+    }
+}
+
+
+
+@media (orientation: portrait) {
+    #controls-row {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (orientation: landscape) {
+    #controls-row {
+        width: 50%;
+    }
+}
+
+@media (orientation: landscape) {
+    #settings-image {
+        width: 20%;
+    }
+}
+
+@media (orientation: portrait) {
+    #settings-image {
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    #info-image {
+        width: 20%;
+    }
+}
+
+@media (orientation: portrait) {
+    #info-image {
+        width: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    #left-run-button {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    #left-run-button {
+        width: 57%;
+    }
+}
+
+@media (orientation: portrait) {
+    #right-run-button {
+        width: 90%;
+    }
+}
+
+@media (orientation: landscape) {
+    #right-run-button {
+        width: 57%;
+    }
+}
+
+@media (orientation: portrait) {
+    #nav-footer {
+        height: 10%;
+    }
+}
+
+@media (orientation: landscape) {
+    #nav-footer {
+        height: 20%;
+    }
+}
+
+@media (orientation: landscape) {
+    #game-info {
+        height: 10%;
+    }
+}
+
+@media (orientation: portrait) {
+    #game-info {
+        height: 5%;
+    }
+}
+
+@media (orientation: portrait) {
+    #control-buttons {
+        height: 75%;
+        width: 100%;
+    }
+}
+
+@media (orientation: landscape) {
+    #control-buttons {
+        height: 55%;
+    }
+}
+
+@media (orientation: portrait) {
+    #replay-button-container {
+        height: 80%;
+    }
+}
+
+@media (orientation: landscape) {
+    #replay-button-container {
+        height: 60%;
+    }
+}
+
+@media (orientation: portrait) {
+    #replay-button {
+        height: 50%;
+        width: 70%;
+        background-color: rgba(0, 123, 255, 0);
+    }
+}
+
+@media (orientation: landscape) {
+    #replay-button {
+        height: 60%;
+        width: 20%;
+    }
+}
+
+@media (orientation: portrait) {
+    #replay-title {
+        height: 10%;
+    }
+}
+
+@media (orientation: landscape) {
+    #replay-title {
+        height: 20%;
+    }
+}
+
+@media (orientation: portrait) {
+    #quit-game-container {
+        height: 100%;
+        width: 40%;
+    }
+}
+
+@media (orientation: landscape) {
+    #quit-game-container {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+@media (orientation: portrait) {
+    #quit-game-button {
+        height: 100%;
+        width: 25%;
+        background-color: rgba(0, 123, 255, 0);
+    }
+}
+
+@media (orientation: landscape) {
+    #quit-game-button {
+        height: 100%;
+        width: 15%;
+    }
+}
+
+@media (orientation: portrait) {
+    #bottom-nav {
+        height: 10%;
+    }
+}
+
+@media (orientation: landscape) {
+    #bottom-nav {
+        height: 20%;
+    }
+}
+
+#bottom-olympian-logo {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+@media (orientation: portrait) {
+    #player-name {
+        height: 10%;
+    }
+}
+
+@media (orientation: landscape) {
+    #player-name {
+        height: 15%;
+    }
+}
+
+@media (orientation: portrait) {
+    #left-button {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (orientation: landscape) {
+    #left-button {
+        height: 100%;
+        width: 55%;
+    }
+}
+
+@media (orientation: portrait) {
+    #right-button {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (orientation: landscape) {
+    #right-button {
+        height: 100%;
+        width: 50%;
+    }
+}
+
+@media (orientation: landscape) {
+    #back-button {
+        width: 10%;
+        height: 70%;
+    }
+}
+
+@media (orientation: portrait) {
+    #back-button {
+        width: 20%;
+        height: 40%;
+    }
+}
+
+
+@media (orientation: landscape) {
+    #backbutton-img {
+        /*width: 100%;*/
+        height: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    #backbutton-img {
+        /*width: 100%;*/
+        height: 100%;
+    }
+}
+
+@media (orientation: portrait) {
+    #player-name-land {
+        display: none;
+    }
+}
+
